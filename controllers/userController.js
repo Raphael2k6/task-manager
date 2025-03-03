@@ -86,6 +86,7 @@ const updateUser = async (req, res) => {
   }
 };
 
+//delete user by id
 const deleteUserById = async (req, res) => {
   try {
     const { id } = req.params;
